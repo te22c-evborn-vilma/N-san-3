@@ -1,2 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿// Punkt 1
+static void Hello32()
+{
+    for (int i = 0; i < 32; i++)
+    {
+        Console.WriteLine("Hello, World");
+    }
+}
+
+Hello32();
+
+Console.ReadLine();
